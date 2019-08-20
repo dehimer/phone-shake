@@ -15,6 +15,8 @@ window.onload = function () {
   setTimeout(() => {
     if (x === null) {
       alert('noAcceleration');
+    } else {
+      alert(x);
     }
   }, 1500);
 };
