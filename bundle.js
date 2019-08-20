@@ -15,9 +15,7 @@ window.onload = function () {
 
   setTimeout(() => {
     if (x === null) {
-      alert('noAcceleration');
-    } else {
-      alert(x);
+      document.getElementById('root').innerHTML = 'noAcceleration';
     }
   }, 1500);
 };
