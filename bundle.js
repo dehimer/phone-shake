@@ -1,5 +1,5 @@
 window.onload = function () {
-  let x = null;
+  var x = null;
   const accelerationHandler = (e) => {
     const { acceleration } = e;
 
