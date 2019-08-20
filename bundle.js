@@ -5,6 +5,7 @@ window.onload = function () {
 
     if (acceleration.x !== null) {
       x = acceleration.x;
+      document.getElementById('root').innerHTML = x;
     }
 
     window.removeEventListener('devicemotion', accelerationHandler);
